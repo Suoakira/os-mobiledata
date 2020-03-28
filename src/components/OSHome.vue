@@ -49,13 +49,13 @@ export default {
   },
 
   methods: {
-    /** 
-		 * @desc  Filters the array by type, download/upload. And sorts the data by rank highest to lowest speed (value). t28 Mar 2020
-		 * @author Stephen Courtier <steves0089@gmail>
-		 
-		 * @param {String} - filtertypeStr
-		 * @returns {Array} - filtered array
-		 */
+    /**
+     * @desc  Filters the array by type, download/upload. And sorts the data by rank highest to lowest speed (value). t28 Mar 2020
+     * @author Stephen Courtier <steves0089@gmail>
+     *
+     * @param {String} - filtertypeStr
+     * @returns {Array} - filtered array
+     */
     filterMobileData(filtertypeStr) {
       // non destructive to original data
       return this.openSignal.mobileData
